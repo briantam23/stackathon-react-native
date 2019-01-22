@@ -1,8 +1,7 @@
 import * as React from 'react';
-import { Text, View } from 'react-native';
+//import Autocomplete from './Autocomplete';
+import Map from './Map';
 
 export default () => (
-  <View style={{ marginTop: 50 }}>
-    <Text>Hello Expo!</Text>
-  </View>
+  <Map/>
 );
